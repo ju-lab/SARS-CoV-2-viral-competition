@@ -123,7 +123,7 @@ fig1c_exp <- ggplot(umi_dat) +
 ############################################################################################################################################
 # Metadata : Infectivity information for all cells 
 ############################################################################################################################################
-metadata <- "metadata.csv"
+metadata <- "infected_cells_final_revision.csv"
 norm_cell_voc <- read_csv(metadata)
 
 ### fix sample order
